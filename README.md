@@ -9,3 +9,6 @@ Write a script that prints a message depending of the number of arguments passed
 
 # Value of my argument
 Write a script that prints the first argument passed to it:
+
+# Create a sentence
+Write a script that prints two arguments passed to it, in the following format: “ is ”
