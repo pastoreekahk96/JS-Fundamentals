@@ -7,26 +7,33 @@ Write a script that prints 3 lines:
 # 2. Arguments
 Write a script that prints a message depending of the number of arguments passed:
 
-# Value of my argument
+# 3. Value of my argument
 Write a script that prints the first argument passed to it:
 
-# Create a sentence
+# 4. Create a sentence
 Write a script that prints two arguments passed to it, in the following format: “ is ”
 
-# an Interger
+# 5. An Interger
 Write a script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer:
 
-# Loop to language
+# 6. Loop to language
 Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
 
-# I love C
+# 7. I love C
 Write a script that prints x times “C is fun”
 
 Where x is the first argument of the script
 If the first argument can’t be converted to an integer, print “Missing number of occurrences”
 
-# Square
+# 8. Square
 Write a script that prints a square
 
 The first argument is the size of the square
 If the first argument can’t be converted to an integer, print “Missing size”
+
+# 9. Add
+Write a script that prints the addition of 2 integers
+
+The first argument is the first integer
+The second argument is the second integer
+You have to define a function with this prototype: function add(a, b)
