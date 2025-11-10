@@ -18,3 +18,9 @@ Write a script that prints My number: <first argument converted in integer> if t
 
 # Loop to language
 Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
+
+# I love C
+Write a script that prints x times “C is fun”
+
+Where x is the first argument of the script
+If the first argument can’t be converted to an integer, print “Missing number of occurrences”
