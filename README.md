@@ -1,39 +1,50 @@
-# 0. First constant, first print
-Write a script that prints “JavaScript is amazing”:
+# JavaScript Fundamentals
 
-# 1. 3 languages
-Write a script that prints 3 lines:
+A collection of introductory JavaScript exercises covering variables, command-line arguments, conditionals, arrays, loops, functions, and number conversion.
 
-# 2. Arguments
-Write a script that prints a message depending of the number of arguments passed:
+These exercises are intentionally kept as coursework-style programs so the repository shows the learning progression rather than hiding it behind a large framework.
 
-# 3. Value of my argument
-Write a script that prints the first argument passed to it:
+## Exercises
 
-# 4. Create a sentence
-Write a script that prints two arguments passed to it, in the following format: “ is ”
+| File | Concept |
+|---|---|
+| `0-javascript_is_amazing.js` | Constants and console output |
+| `1-multi_languages.js` | Variables and multiple outputs |
+| `2-arguments.js` | Command-line argument counting |
+| `3-value_argument.js` | Reading command-line arguments |
+| `4-concat.js` | Combining argument values with a template literal |
+| `5-to_integer.js` | Integer conversion and validation |
+| `6-multi_languages_loop.js` | Arrays and `for` loops |
+| `7-multi_c.js` | Repetition with a loop |
+| `8-square.js` | Nested loops and string building |
+| `9-add.js` | Functions and numeric addition |
 
-# 5. An Interger
-Write a script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer:
+## Requirements
 
-# 6. Loop to language
-Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
+- Node.js
+- A terminal or command prompt
 
-# 7. I love C
-Write a script that prints x times “C is fun”
+No third-party npm packages are required for the current exercises.
 
-Where x is the first argument of the script
-If the first argument can’t be converted to an integer, print “Missing number of occurrences”
+## Run an exercise
 
-# 8. Square
-Write a script that prints a square
+From the repository root:
 
-The first argument is the size of the square
-If the first argument can’t be converted to an integer, print “Missing size”
+```bash
+node 0-javascript_is_amazing.js
+node 2-arguments.js
+node 5-to_integer.js 89
+node 7-multi_c.js 3
+node 8-square.js 4
+node 9-add.js 10 20
+```
 
-# 9. Add
-Write a script that prints the addition of 2 integers
+The programs use `process.argv` to read command-line arguments. Each exercise can therefore be run independently with Node.js.
 
-The first argument is the first integer
-The second argument is the second integer
-You have to define a function with this prototype: function add(a, b)
+## Learning focus
+
+The goal is to understand how a program receives input, makes decisions, processes data, and produces output. The exercises provide a foundation for later JavaScript work involving objects, asynchronous programming, APIs, and backend development.
+
+## Repository hygiene
+
+This repository contains small standalone exercises, so a package manager or build system is intentionally not required. Local dependency directories, environment files, logs, coverage output, and editor metadata should not be committed.
